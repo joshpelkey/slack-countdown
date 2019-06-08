@@ -24,7 +24,7 @@ A prerequisite is that you have a Heroku account and have added a method of paym
 
 2. Press this button to create a new Heroku app:
 
-    <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2joshpelkey%2slack-countdown%2Ftree%2Fmaster" target="_blank">
+    <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fjoshpelkey%2Fslack-countdown.git" target="_blank">
         <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy">
     </a>
 
