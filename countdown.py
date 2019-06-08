@@ -88,14 +88,13 @@ def date_only(strdate, business_days):
     
 
 
-def post(out, strdate):
+def post(out, days_left):
     """ Posts a request to the slack webhook. Payload can be customized
     so the message in slack is customized. The variable out is the text 
     to be displayed.
     """    
     if strdate:
-        days_left = days_from_date(strdate)
-        
+           
         images = [#1
                   "", 
                   #2
@@ -368,7 +367,7 @@ def deadline(date, event, business_days):
     else:
         days_left = days_from_date(date, business_days)
         if days_left > 0 and days_left < 100:
-            post(result, date)
+            post(result, days_left)
         else:
             post(result)
         
