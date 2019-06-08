@@ -93,16 +93,133 @@ def post(out):
     so the message in slack is customized. The variable out is the text 
     to be displayed.
     """    
-
-    payload = {
-        "attachments": [
-            {   
-                "title": "COUNTDOWN!",
-                "text": out,
-                "color": "#7CD197"
-            }
-        ]
-    }
+    if strdate:
+        days_left = days_from_date(strdate)
+        
+        images = ["", \0
+                  "", \1
+                  "", \2
+                  "", \3
+                  "", \4
+                  "", \5
+                  "", \6
+                  "", \7
+                  "", \8
+                  "", \9
+                  "", \10
+                  "", \11
+                  "", \12
+                  "", \13
+                  "", \14
+                  "", \15
+                  "", \16
+                  "", \17
+                  "", \18
+                  "", \19
+                  "", \20
+                  "", \21
+                  "", \22
+                  "", \23
+                  "", \24
+                  "", \25
+                  "", \26
+                  "", \27
+                  "", \28
+                  "", \29
+                  "", \30
+                  "", \31
+                  "", \32
+                  "", \33
+                  "", \34
+                  "", \35
+                  "", \36
+                  "", \37
+                  "", \38
+                  "", \39
+                  "", \40
+                  "", \41
+                  "", \42
+                  "", \43
+                  "", \44
+                  "", \45
+                  "", \46
+                  "", \47
+                  "", \48
+                  "", \49
+                  "", \50
+                  "", \51
+                  "", \52
+                  "", \53
+                  "", \54
+                  "", \55
+                  "", \56
+                  "", \57
+                  "", \58
+                  "", \59
+                  "", \60
+                  "", \61
+                  "", \62
+                  "", \63
+                  "", \64
+                  "", \65
+                  "", \66
+                  "", \67
+                  "", \68
+                  "", \69
+                  "", \70
+                  "", \71
+                  "https://clemsonpaws.com/wp-content/uploads/2016/07/Tremayne-Anchrum.jpg", \72
+                  "https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/3/1e/31e09354-eb31-11e7-91a4-dfcab8482f44/5a43e22e7907d.image.jpg?resize=1200%2C1329", \73
+                  "https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/cfp-national-championship-5bdde43404bc97a939000008.jpg", \74
+                  "https://usattci.files.wordpress.com/2017/01/sean-pollard.jpg?w=1000&h=600&crop=1", \75
+                  "https://nbccollegefootballtalk.files.wordpress.com/2019/01/gettyimages-1067333440-e1548777834805.jpg?w=610&h=343&crop=1", \76
+                  "https://c8.alamy.com/comp/F87R19/clemson-offensive-lineman-eric-mac-lain-78-during-the-acc-college-F87R19.jpg", \77
+                  "https://i3.tigernet.com/stories/18/football/carman_jackson_handsup_800-479.jpg", \78
+                  "https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/8/89/8890b512-9019-11e7-9574-73a4610b6a14/59ab0e23c1250.image.jpg?resize=400%2C287", \79
+                  "https://editorial01.shutterstock.com/wm-preview-1500/7688279eq/dd2198ba/playoff-fiesta-bowl-football-glendale-usa-shutterstock-editorial-7688279eq.jpg", \80
+                  "https://c8.alamy.com/comp/R09NWR/clemson-south-carolina-usa-03rd-nov-2018-clemson-tigers-wide-receiver-will-brown-82-before-the-ncaa-college-football-game-between-louisville-and-clemson-on-saturday-november-3-2018-at-memorial-stadium-in-clemson-sc-jacob-kupfermancsm-credit-cal-sport-mediaalamy-live-news-R09NWR.jpg", \81
+                  "https://lh6.googleusercontent.com/-nzZLAbeSkJI/UIgjZwvm6qI/AAAAAAABT1E/hJbp3YIwl6c/s1600/TNT_7222.jpg", \82
+                  "", \83
+                  "", \84
+                  "", \85
+                  "", \86
+                  "", \87
+                  "", \88
+                  "", \89
+                  "", \90
+                  "", \91
+                  "", \92
+                  "", \93
+                  "", \94
+                  "", \95
+                  "", \96
+                  "", \97
+                  "", \98
+                  "" \99
+                 ]
+        
+        img_url = images[days_left - 1]
+                  
+        payload = {
+            "attachments": [
+                {   
+                    "title": "COUNTDOWN!",
+                    "text": out,
+                    "color": "#F66733",
+                    "image_url": img_url
+                }
+            ]
+        }
+    else:
+        payload = {
+            "attachments": [
+                {   
+                    "title": "COUNTDOWN!",
+                    "text": out,
+                    "color": "#F66733"
+                }
+            ]
+        }
     
     r = requests.post(SLACK_URL, data=json.dumps(payload))
 
@@ -151,7 +268,7 @@ def deadline(date, event, business_days):
     except:
         post_error()
     else:
-        post(result)
+        post(result, strdate=date)
         
 
 
