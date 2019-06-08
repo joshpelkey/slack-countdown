@@ -93,7 +93,7 @@ def post(out, days_left):
     so the message in slack is customized. The variable out is the text 
     to be displayed.
     """    
-    if strdate:
+    if days_left:
            
         images = [#1
                   "", 
