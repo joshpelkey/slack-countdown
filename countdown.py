@@ -356,6 +356,7 @@ def deadline(date, event, business_days):
     """    
     try:
         result = ""
+        days_left = days_from_date(date)
         if date:
             if event:
                 result = events(date, event, business_days)
@@ -366,7 +367,10 @@ def deadline(date, event, business_days):
     except:
         post_error()
     else:
-        post(result, strdate=date)
+        if days_left > 0 && days_left < 100:
+            post(result, strdate=date)
+        else:
+            post(result)
         
 
 
