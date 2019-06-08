@@ -1,4 +1,4 @@
-Countdown program to Slack hook
+Countdown program to Slack hook [with minor updates to post clemson pics]
 -------------------------------
 
 [![Requirements Status](https://requires.io/github/esplorio/slack-countdown/requirements.svg?branch=master)](https://requires.io/github/esplorio/slack-countdown/requirements/?branch=master)
