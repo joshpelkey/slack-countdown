@@ -226,19 +226,19 @@ def post(out, days_left):
                   #65
                   "", 
                   #66
-                  "", 
+                  "http://www.soconsports.com/pics31/1024/HQ/HQPPHOFVIWADLXP.20100805163708.jpg", 
                   #67
-                  "", 
+                  "https://usattci.files.wordpress.com/2019/01/albert-huggins.jpg?w=1000&h=600&crop=1", 
                   #68
-                  "", 
+                  "https://farm4.static.flickr.com/3837/15381327526_32a0b40355_b.jpg", 
                   #69
-                  "",
+                  "https://clemsontigers.com/wp-content/uploads/2016/10/ZSQJAXFUCQNROJT.20161028153755.jpg",
                   #70
-                  "", 
+                  "https://www.gannett-cdn.com/presto/2019/01/07/PNDN/4b18afc0-38b9-4c1e-b3cd-469cd0cb723a-USATSI_10456727.jpg?width=534&height=712&fit=bounds&auto=webp", 
                   #71
-                  "", 
+                  "https://media.gettyimages.com/photos/clemson-tigers-long-snapper-jack-maddox-warms-up-before-the-college-picture-id900524032", 
                   #72
-                  "",
+                  "https://ssl.c.photoshelter.com/img-get/I0000nELU1j6d4us/s/880/880/CFS-DKS-110917402.jpg",
                   #73
                   "https://clemsonpaws.com/wp-content/uploads/2016/07/Tremayne-Anchrum.jpg", 
                   #74
