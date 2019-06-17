@@ -95,7 +95,9 @@ def post(out, days_left=None):
     """    
     if days_left:
            
-        images = [#1
+        images = [#0
+                  "https://thumbs.gfycat.com/DevotedChubbyAmericansaddlebred-small.gif",
+                  #1
                   "", 
                   #2
                   "", 
@@ -295,7 +297,7 @@ def post(out, days_left=None):
                   ""
                  ]
         
-        img_url = images[days_left - 1]
+        img_url = images[days_left]
                   
         payload = {
             "attachments": [
