@@ -88,7 +88,7 @@ def date_only(strdate, business_days):
     
 
 
-def post(out, days_left):
+def post(out, days_left=None):
     """ Posts a request to the slack webhook. Payload can be customized
     so the message in slack is customized. The variable out is the text 
     to be displayed.
