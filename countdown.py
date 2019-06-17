@@ -93,7 +93,7 @@ def post(out, days_left=None):
     so the message in slack is customized. The variable out is the text 
     to be displayed.
     """    
-    if days_left:
+    if days_left >= 0 and days_left < 100:
            
         images = [#0
                   "https://thumbs.gfycat.com/DevotedChubbyAmericansaddlebred-small.gif",
