@@ -264,37 +264,37 @@ def post(out, days_left=None):
                   #83
                   "https://lh6.googleusercontent.com/-nzZLAbeSkJI/UIgjZwvm6qI/AAAAAAABT1E/hJbp3YIwl6c/s1600/TNT_7222.jpg", 
                   #84
-                  "", 
+                  "https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Frubbingtherock.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2018%2F02%2F630813276-playstation-fiesta-bowl-ohio-state-v-clemson.jpg-850x560.jpg", 
                   #85
-                  "", 
+                  "https://clemsontigers.com/wp-content/uploads/2016/09/QUZNHKONJJMCPQZ.20160913203250.jpg", 
                   #86
-                  "", 
+                  "https://c8.alamy.com/comp/DNPYX5/miami-gardens-florida-usa-3rd-jan-2014-tajh-boyd-10-of-clemson-celebrates-DNPYX5.jpg", 
                   #87
-                  "", 
+                  "https://res-3.cloudinary.com/rivals/image/upload/t_large/cwhkpgjo0kxnkj0bxint", 
                   #88
-                  "", 
+                  "https://rubbingtherock.com/wp-content/uploads/getty-images/2017/07/1200356579.jpeg", 
                   #89
-                  "", 
+                  "https://www.tigernet.com/ezoimgfmt/2cic.nyc3.cdn.digitaloceanspaces.com/t/stories/14/football/McCullough_JayJay_SCState_700.jpg?ezimgfmt=ng:webp/ngcb3", 
                   #90
-                  "", 
+                  "https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,h_400,w_710,f_auto/https%3A%2F%2Fjustblogbaby.com%2Ffiles%2F2016%2F03%2Fshaq-lawson-ncaa-football-cfp-national-championship-alabama-vs-clemson-590x900.jpg", 
                   #91
-                  "", 
+                  "https://usattci.files.wordpress.com/2015/03/josh_watson_fsu_300_185.jpg?w=300", 
                   #92
-                  "", 
+                  "https://www.thestate.com/latest-news/xjl4i3/picture223995860/alternates/FREE_1140/AP18363785664767.jpg", 
                   #93
-                  "", 
+                  "https://pbs.twimg.com/media/B1xBYooCMAAdFyr.jpg", 
                   #94
-                  "", 
+                  "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abccolumbia.com/content/uploads/2015/10/carlos-watkins-clemson-ball-in-air.png", 
                   #95
-                  "", 
+                  "https://i.ytimg.com/vi/Z25PNC_9EDU/maxresdefault.jpg", 
                   #96
-                  "", 
+                  "https://media.gettyimages.com/photos/punter-dawson-zimmerman-of-the-clemson-university-tigers-runs-with-picture-id129033093?s=612x612", 
                   #97
-                  "", 
+                  "https://media.gettyimages.com/photos/nick-rowell-of-the-clemson-tigers-is-honored-on-senior-night-prior-to-picture-id1064605394", 
                   #98
-                  "",
+                  "https://www.gannett-cdn.com/presto/2019/10/13/PGRE/355009b4-54a3-40e2-89c1-05a2126a8038-1012_Clemson_FSU_2ndHalf_012.JPG?crop=3899,2194,x0,y0&width=3200&height=1680&fit=bounds",
                   #99
-                  ""
+                  "https://i.ytimg.com/vi/y1V0E389pGs/maxresdefault.jpg"
                  ]
         
         img_url = images[days_left]
